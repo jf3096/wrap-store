@@ -1,11 +1,11 @@
-# @xfe-team/wrap-store
+# wrap-store
 
 > 用于内部 mobx 状态管理使用
 
 ## 安装
 
 ```bash
-npm install @xfe-team/wrap-store
+npm install wrap-store
 ```
 
 ## 使用

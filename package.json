@@ -1,5 +1,5 @@
 {
-  "name": "@xfe-team/wrap-store",
+  "name": "wrap-store",
   "version": "0.0.1",
   "main": "lib/index.cjs.js",
   "module": "lib/index.es.js",
@@ -41,5 +41,6 @@
   "peerDependencies": {
     "mobx-react": ">=6.1.4",
     "react": ">= 16.8.0"
-  }
+  },
+  "homepage": "https://github.com/jf3096/wrap-store.git"
 }
