@@ -1,0 +1,45 @@
+{
+  "name": "@xfe-team/wrap-store",
+  "version": "0.0.1",
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.es.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run clean && tsc && vite build",
+    "serve": "vite preview",
+    "clean": "rimraf lib && rimraf types",
+    "lint": "eslint -f unix \"src/**/*.{ts,tsx}\""
+  },
+  "devDependencies": {
+    "@types/node": "16.4.6",
+    "@typescript-eslint/eslint-plugin": "4.4.1",
+    "@vitejs/plugin-react-refresh": "1.3.1",
+    "eslint": "7.31.0",
+    "eslint-config-airbnb-typescript": "12.3.1",
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-jsdoc": "36.0.7",
+    "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-react": "7.20.3",
+    "eslint-plugin-react-hooks": "4.0.8",
+    "eslint-plugin-tsdoc": "0.2.14",
+    "prettier": "2.3.2",
+    "prettier-plugin-jsdoc": "0.3.23",
+    "tiny-invariant": "^1.1.0",
+    "typescript": "4.3.2",
+    "vite": "2.4.4",
+    "mobx-react": ">=6.1.4",
+    "react": ">= 16.8.0",
+    "@types/react": "16.8.0"
+  },
+  "types": "types/index.d.ts",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "peerDependencies": {
+    "mobx-react": ">=6.1.4",
+    "react": ">= 16.8.0"
+  }
+}

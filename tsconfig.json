@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "outDir": "./types"
+  },
+  "include": [
+    "src/index.tsx"
+  ]
+}
